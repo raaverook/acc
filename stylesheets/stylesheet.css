@@ -163,8 +163,7 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
-.middot {
-  padding:0 0 0 0; 
+.middot { 
   margin: -0.5rem 0 -0.5rem 0;
   color: #fdecc1;
   font-family: Neutra2Display-Light;
