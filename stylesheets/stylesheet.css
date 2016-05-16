@@ -96,14 +96,14 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn2 {
     padding: 0.3rem 0.45rem;
-    font-size: 1rem; } }
+    font-size: 0.8rem; } }
 
 @media screen and (max-width: 42em) {
   .btn2 {
     margin: 0 ;
 	width: 100%;
     padding: 0.25rem;
-    font-size: 0.9rem; }
+    font-size: 0.6rem; }
     .btn2 + .btn2 {
       margin-top: 0.2rem;
       margin-left: 0; } }
@@ -142,15 +142,15 @@ a {
   .acc_logo {
   max-width: 75%;
   height: auto;
-  margin-top: 3rem ;
-  margin-bottom: 2rem;} }
+  margin-top: 4rem ;
+  margin-bottom: 2.5rem;} }
 
 @media screen and (max-width: 42em) {
   .acc_logo {
   max-width: 50%;
   height: auto;
-  margin-top: 1.5rem ;
-  margin-bottom: 1rem;} }
+  margin-top: 2rem ;
+  margin-bottom: 1.4rem;} }
 
 
 .project-name {
