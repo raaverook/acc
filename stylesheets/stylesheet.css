@@ -42,15 +42,15 @@ body {
 
 @media screen and (min-width: 64em) {
   .liens{
-    margin-top: 5%; } }
+    margin-top: 2%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .liens {
-    margin-top: 5% } }
+    margin-top: 2% } }
 
 @media screen and (max-width: 42em) {
   .liens {
-    margin-top: 5% ; } }
+    margin-top: 2% ; } }
   
 a {
   color: #1e6bb8;
@@ -100,10 +100,8 @@ a {
   font-family: Neutra2Display-Bold;
   display: inline-block;
   margin-bottom: 0rem;
-  border-radius: 0.3rem;
   color: #f26d7d;
-  font-size: 1.1rem;
-  transition: background-color 0.2s ; }
+  font-size: 1.3rem; }
   .btn2 + .btn2 {
     margin-left: 1rem; }
 
@@ -118,13 +116,13 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn2 {
     padding: 0.3rem 0.45rem;
-    font-size: 0.9rem; } }
+    font-size: 1.2rem; } }
 
 @media screen and (max-width: 42em) {
   .btn2 {
     margin: 0 ;
     padding: 0.25rem;
-    font-size: 0.8rem; }
+    font-size: 1.1rem; }
     .btn2 + .btn2 {
       margin-left: 0; } }
 
