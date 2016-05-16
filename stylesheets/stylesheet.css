@@ -23,11 +23,10 @@ body {
 
   
  html {
-  background: url(../img/marbre_bg.jpg)no-repeat center center fixed; 
+  background: url(../img/marbre_bg.jpg) 100% auto; 
+  background-size: cover;	
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;	
-  -o-background-size: cover;
  }
   
 a {
