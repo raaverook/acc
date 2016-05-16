@@ -100,7 +100,7 @@ a {
 
 @media screen and (max-width: 42em) {
   .btn2 {
-    display: block;
+    display: inline-block;
     width: 100%;
     padding: 0.25rem;
     font-size: 0.9rem; }
