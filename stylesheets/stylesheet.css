@@ -77,7 +77,7 @@ a {
 .btn2 {
   font-family: Neutra2Display-Bold;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   border-radius: 0.3rem;
   color: #f26d7d;
   font-size: 1.1rem;
