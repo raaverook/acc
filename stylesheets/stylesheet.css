@@ -80,7 +80,7 @@ a {
   margin-bottom: 1rem;
   border-radius: 0.3rem;
   color: #f26d7d;
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: background-color 0.2s ; }
   .btn2 + .btn2 {
     margin-left: 1rem; }
@@ -97,14 +97,14 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn2 {
     padding: 0.6rem 0.9rem;
-    font-size: 1.25rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn2 {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    font-size: 1rem; }
+    font-size: 0.8rem; }
     .btn2 + .btn2 {
       margin-top: 1rem;
       margin-left: 0; } }
@@ -148,7 +148,6 @@ a {
 
 .project-tagline {
   color: #fdecc1;
-  margin-bottom: 1rem;
   font-family: Neutra2Display-Light;
   font-weight: normal;
   opacity: 0.7; }
