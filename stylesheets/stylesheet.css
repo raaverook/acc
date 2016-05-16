@@ -87,7 +87,6 @@ a {
 
 .btn2:hover {
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
  }
 
 @media screen and (min-width: 64em) {
@@ -149,8 +148,7 @@ a {
 .project-tagline {
   color: #fdecc1;
   font-family: Neutra2Display-Light;
-  font-weight: normal;
-  opacity: 0.7; }
+  font-weight: normal; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
@@ -164,6 +162,24 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+.middot {
+  margin:0 0 0 0; 
+  color: #fdecc1;
+  font-family: Neutra2Display-Light;
+  font-weight: normal; }
+
+@media screen and (min-width: 64em) {
+  .middot {
+    font-size: 2rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .middot {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 42em) {
+  .middot {
+    font-size: 1rem; } }
+	
 .main-content :first-child {
   margin-top: 0; }
   
