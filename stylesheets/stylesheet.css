@@ -37,7 +37,20 @@ body {
 	} 
 }
 	 
-  
+ .liens {
+ }
+
+@media screen and (min-width: 64em) {
+  .liens{
+    margin-top: 5%; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .liens {
+    margin-top: 5% } }
+
+@media screen and (max-width: 42em) {
+  .liens {
+    margin-top: 5% ; } }
   
 a {
   color: #1e6bb8;
@@ -105,15 +118,14 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn2 {
     padding: 0.3rem 0.45rem;
-    font-size: 0.8rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn2 {
     margin: 0 ;
     padding: 0.25rem;
-    font-size: 0.6rem; }
+    font-size: 0.8rem; }
     .btn2 + .btn2 {
-      margin-top: 0.2rem;
       margin-left: 0; } }
 
 .page-header {
@@ -136,7 +148,7 @@ a {
   max-width: 100%;
   height: auto;
   margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 64em) {
@@ -144,21 +156,21 @@ a {
   max-width: 100%;
   height: auto;
   margin-top: 5rem;
-  margin-bottom: 3rem;} }
+  margin-bottom: 2rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .acc_logo {
   max-width: 75%;
   height: auto;
-  margin-top: 4rem ;
-  margin-bottom: 2.5rem;} }
+  margin-top: 30% ;
+  margin-bottom: 10%;} }
 
 @media screen and (max-width: 42em) {
   .acc_logo {
   max-width: 50%;
   height: auto;
-  margin-top: 2rem ;
-  margin-bottom: 1.4rem;} }
+  margin-top: 30% ;
+  margin-bottom: 10%;} }
 
 
 .project-name {
