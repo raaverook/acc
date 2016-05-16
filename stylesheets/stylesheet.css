@@ -146,6 +146,7 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
+  margin:0 0 0 0 ;
   color: #fdecc1;
   font-family: Neutra2Display-Light;
   font-weight: normal; }
