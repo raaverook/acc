@@ -8,9 +8,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
-  background: url(../img/marbre_full.jpg); 
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url(../img/marbre_full.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
   
