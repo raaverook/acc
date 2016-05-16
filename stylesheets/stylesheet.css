@@ -23,11 +23,11 @@ body {
 
   
  html {
-  background: url(../img/marbre_bg.jpg)repeat center center fixed; 
+  background: url(../img/marbre_bg.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;	
+  -o-background-size: cover;
  }
   
 a {
@@ -101,7 +101,6 @@ a {
 @media screen and (max-width: 42em) {
   .btn2 {
     margin: 0 ;
-	width: 100%;
     padding: 0.25rem;
     font-size: 0.6rem; }
     .btn2 + .btn2 {
