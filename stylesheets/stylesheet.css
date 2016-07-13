@@ -10,6 +10,26 @@
     font-family: Neutra2Display-Bold;
     src: url(fonts/Neutra2Display-Bold.otf);
 }
+ 
+ @font-face {
+    font-family: Neutra2Text-Bold;
+    src: url(fonts/Neutra2Text-Bold.otf);
+}
+  
+ @font-face {
+    font-family: Neutra2Text-Book;
+    src: url(fonts/Neutra2Text-Book.otf);
+}
+  
+ @font-face {
+    font-family: Neutra2Text-Demi;
+    src: url(fonts/Neutra2Text-Demi.otf);
+}
+  
+ @font-face {
+    font-family: Neutra2Text-Light;
+    src: url(fonts/Neutra2Text-Light.otf);
+}
   
   
 body {
@@ -17,7 +37,7 @@ body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
   color: #606c71;
   }
 
@@ -38,6 +58,7 @@ body {
 }
 	 
  .liens {
+  color: #1e6bb8;
  }
 
 @media screen and (min-width: 64em) {
@@ -53,10 +74,9 @@ body {
     margin-top: 2% ; } }
   
 a {
-  color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .btn {
   display: inline-block;
@@ -145,7 +165,7 @@ a {
 .acc_logo {
   max-width: 100%;
   height: auto;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -153,14 +173,14 @@ a {
   .acc_logo {
   max-width: 100%;
   height: auto;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .acc_logo {
   max-width: 75%;
   height: auto;
-  margin-top: 30% ;
+  margin-top: 20% ;
   margin-bottom: 10%;} }
 
 @media screen and (max-width: 42em) {
@@ -191,21 +211,54 @@ a {
 .project-tagline {
   margin:0 0 0 0;
   color: #fdecc1;
-  font-family: Neutra2Display-Light;
-  font-weight: normal; }
+  font-family: Neutra2Text-Light;
+  font-weight: normal; 
+  font-variant-caps: all-small-caps;
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+}
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 2rem; } }
+    font-size: 1.9rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.8rem; } }
+    font-size: 1.7rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1.5rem; } }
 
+.horaire_section {
+  margin:2rem 0 0 0;
+}
+
+.horaire_texte {
+  margin:0 0 0 0;
+  color: #fdecc1;
+  font-family: Neutra2Text-Light;
+  font-weight: normal; 
+  font-variant-caps: all-small-caps;
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+}
+
+@media screen and (min-width: 64em) {
+  .horaire_texte {
+    font-size: 1.5rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .horaire_texte {
+    font-size: 1.4rem; } }
+
+@media screen and (max-width: 42em) {
+  .horaire_texte {
+    font-size: 1.3rem; } }
+
+	
 .middot { 
   color: #fdecc1;
   font-family: Neutra2Display-Light;
