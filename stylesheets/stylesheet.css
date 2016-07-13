@@ -180,14 +180,14 @@ a {
   .acc_logo {
   max-width: 75%;
   height: auto;
-  margin-top: 20% ;
+  margin-top: 15% ;
   margin-bottom: 10%;} }
 
 @media screen and (max-width: 42em) {
   .acc_logo {
   max-width: 50%;
   height: auto;
-  margin-top: 30% ;
+  margin-top: 10% ;
   margin-bottom: 10%;} }
 
 
@@ -252,11 +252,11 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .horaire_texte {
-    font-size: 1.4rem; } }
+    font-size: 1.3rem; } }
 
 @media screen and (max-width: 42em) {
   .horaire_texte {
-    font-size: 1.3rem; } }
+    font-size: 1.1rem; } }
 
 	
 .middot { 
