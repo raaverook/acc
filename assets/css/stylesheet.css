@@ -93,12 +93,14 @@
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .flyer {
+  max-width: 70%;
   margin: 0 15%;
   padding: 0 0 1em 0 ;
 } }
 
 @media screen and (max-width: 42em) {
   .flyer {
+    max-width: 70%;
   margin: 0 15%;
   padding: 0 0 1em 0 ;
 } }
