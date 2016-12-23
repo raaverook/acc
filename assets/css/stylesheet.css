@@ -81,6 +81,34 @@
   padding: 0 0 2em 0 ;
 } }
 
+.bookiframe {
+  height:620px;
+  border:0 solid #fff; 
+  z-index:2147483649; 
+  margin: 1em 0 1em 3em;
+}
+
+@media screen and (min-width: 64em) {
+  .bookiframe {
+  width:30%;
+  position: absolute; 
+
+  } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .bookiframe {
+  width:30%;
+  position: absolute; 
+} }
+
+@media screen and (max-width: 42em) {
+  .bookiframe {
+  width:80%;
+  height:400px;
+  position: relative; 
+} }
+
+
 .flyer {
   height: auto;
   padding: 1em 0 1em 0 ;
