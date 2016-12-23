@@ -3384,7 +3384,7 @@
 /* Banner */
 
 	#banner {
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
@@ -3395,7 +3395,7 @@
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
+		justify-content: center;*/
 		cursor: default;
 		height: 100vh;
 		min-height: 35em;
@@ -3405,14 +3405,14 @@
 	}
 
 		#banner h2 {
-			-moz-transform: scale(1);
+			/*-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
 			transform: scale(1);
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;*/
 			display: inline-block;
 			font-size: 1.75em;
 			opacity: 1;
@@ -3422,14 +3422,14 @@
 		}
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease;
+				/*-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
 				-ms-transition: width 0.85s ease;
 				transition: width 0.85s ease;
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+				transition-delay: 0.25s;*/
 				background: white;
 				content: '';
 				display: block;
@@ -3458,7 +3458,7 @@
 			}
 
 		#banner .more {
-			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
+			/*-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
@@ -3469,12 +3469,12 @@
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
-			transform: translateY(0);
+			transform: translateY(0);*/
 			border: none;
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 6em;
+			height: 3em;
 			left: 0%;
 			letter-spacing: 0.225em;
 			opacity: 1;
@@ -3499,7 +3499,7 @@
 			}
 
 		#banner:after {
-			-moz-pointer-events: none;
+			/*-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
@@ -3510,14 +3510,14 @@
 			-moz-transition-delay: 0.5s;
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 1s;
-			transition-delay: 1s;
+			transition-delay: 1s;*/
 			content: '';
 			background-color: #000;
 			background: url(../../images/marbre_bg.jpg)no-repeat center center fixed; 
-			-webkit-background-size: cover;
+			/*webkit-background-size: cover;
 			-moz-background-size: cover;
 			background-size: cover;	
-			-o-background-size: cover;
+			-o-background-size: cover;*/
 			display: block;
 			width: 100%;
 			height: 100%;
