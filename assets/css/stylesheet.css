@@ -103,9 +103,7 @@
 
 @media screen and (max-width: 42em) {
   .bookiframe {
-  width:80%;
-  height:400px;
-  position: relative; 
+  display: none;
 } }
 
 
