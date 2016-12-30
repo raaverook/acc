@@ -123,6 +123,7 @@
 @media screen and (max-width: 42em) {
   .booklink {
   display: inline;
+  z-index: 999999999;
 } }
 
 
