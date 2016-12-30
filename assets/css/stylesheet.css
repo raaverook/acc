@@ -122,8 +122,13 @@
 
 @media screen and (max-width: 42em) {
   .booklink {
-  display: inline;
-  z-index: 999999999;
+    font-family: Neutra2Display-Bold;
+  display: inline-block;
+  color: #f26d7d;
+  display: block;
+  z-index: 2147483649;
+  position: absolute; 
+  margin: 1em 0 1em 3em;
 } }
 
 
@@ -149,7 +154,7 @@
   .flyer {
     max-width: 70%;
   margin: 0 15%;
-  padding: 0 0 1em 0 ;
+  padding: 3em 0 1em 0 ;
 } }
 
 
@@ -218,6 +223,7 @@
 }
 	
  .liens {
+	z-index: 9999999;
  }
 
 @media screen and (min-width: 64em) {
