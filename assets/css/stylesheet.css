@@ -106,6 +106,26 @@
   display: none;
 } }
 
+.booklink {
+  display: none;
+}
+
+@media screen and (min-width: 64em) {
+  .booklink {
+ display: none;
+  } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .booklink {
+ display: none; 
+} }
+
+@media screen and (max-width: 42em) {
+  .booklink {
+  display: inline;
+} }
+
+
 
 .flyer {
   height: auto;
