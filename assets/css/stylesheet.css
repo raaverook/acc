@@ -59,26 +59,33 @@
   margin: 0 auto;
 }
 
+.center_button {
+      display: none;
+}
+
 .main_logo {
+  width:20%;
   height: auto;
-  padding: 0 0 3em 0 ;
+  padding: 3em 0 3em 0 ;
+      display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 @media screen and (min-width: 64em) {
   .main_logo {
-  max-width: 100%;
   } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main_logo {
-  max-width: 75%;
-  padding: 0 0 2em 0 ;
+  max-width: 50%;
+  padding: 1em 0 2em 0 ;
 } }
 
 @media screen and (max-width: 42em) {
   .main_logo {
   max-width: 50%;
-  padding: 0 0 2em 0 ;
+  padding: 1em 0 2em 0 ;
 } }
 
 .bookiframe {
